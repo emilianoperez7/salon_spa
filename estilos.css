@@ -1,0 +1,182 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  background-color: #fafafa;
+}
+.fondo_crema{
+  background-color: #fff9f1;
+}
+hr{
+  background-color: #ff3281;
+  height: 10px;
+}
+
+.ancho{
+  margin: auto;
+  width: 1200px;
+}
+.margen{
+  padding: 15px;
+}
+.centrar{
+  text-align: center;
+} 
+.logo{
+  width: 67%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo img {
+  height: 100px;
+}
+.redes{
+  text-align: right;
+  width: 32.2%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.redes img{
+  padding: 0 15px;
+}
+.menu{
+  border: 4px black solid;
+  padding: 5px 0px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.menu a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 105px;
+}
+.promociones{
+  background-image: url(imagenes/fondopiedras.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  color: white;
+  padding: 120px 280px;
+}
+.btn_rosa{
+  background-color: #ff3281;
+  color: white;
+  padding: 15px 20px;
+  margin: 20px;
+  text-decoration: none;
+}
+.btn_transparente{
+  background-color: transparent;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  border: 2px #ff3281 solid;
+  margin: 20px;
+}
+.texto_productos{
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 36px;
+}
+h2{
+  font: size 20px;
+}
+h3{
+  font-size: 24px;
+  padding: 20px 0;
+}
+.img_productos{
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+.img_productos img{
+  width: 70%;
+  height: 300px;
+}
+.texto_trabajos{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 36px;
+  text-align: left;
+}
+.img_trabajos{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.img_trabajos img{
+  width: 85%;
+  height: 350px;
+  border-radius: 15px;
+}
+.newsletter{
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+.newsletter h2{
+  font-size: 24px;
+  line-height: 28px;
+}
+.letra_rosa{
+  color: #ff3281;
+  font-weight: bold
+}
+.formulario{
+  padding: 7px;
+  border: 3px #ff3281 solid;
+  font-weight: bold;
+  width: 80%;
+}
+.formulario input{
+  border-radius: 5px;
+  margin: 15px 0;
+  padding: 10px;
+  width: 90%;
+}
+.btn_enviar{
+  background-color: black;
+  color: white;
+  padding: 10px 60px;
+  border: none;
+}
+
+.instalaciones{
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+.video_instalaciones{
+  width: 90%;
+  height: 300px;
+  border-radius: 5px;
+}
+.logo_final{
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+}
+.logo_final img{
+  height: 100px;
+}
+.datos{
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer{
+  margin-top: 40px;
+}

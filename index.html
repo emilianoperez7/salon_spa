@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
+
+  <link rel="stylesheet" href="estilos.css">
+  <title>SPA</title>
+</head>
+<body>
+  <hr class="ancho">
+  <div class="ancho fondo_crema">
+    <div class="logo">
+      <img src="imagenes/logocabecera.jpg" alt="logospa">
+    </div>
+    <div class="redes">
+      <a href="#"><img src="imagenes/icono_facebook.jpg" alt=""></a>
+      <a href="#"><img src="imagenes/icono_instagram.jpg" alt=""></a>
+      <a href="#"><img src="imagenes/icono_twitter.jpg" alt=""></a>
+    </div>
+    <div class="menu">
+      <a href="">GALERIA</a>
+      <a href="">PRECIOS</a>
+      <a href="">CONTACTANOS</a>
+      <a href="">EQUIPO</a>
+    </div>
+  </div>
+  <div class="promociones ancho centrar">
+    <h1>PROMOCIONES DE MARZO</h1>
+    <br>
+    <h2>Se acerca la epoca de playa y por eso preparamos estas dos promociones ideales para ti.</h2>
+    <br><br>
+    <a class="btn_rosa" href="#">Solicitar Promocion</a>
+    <a class="btn_transparente" href="#">ver Video</a>
+  </div>
+  <div class="ancho margen">
+    <div class="texto_productos">
+      <h3>Los productos Science Beauty</h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, nisi numquam. Alias quis sequi dolorem eos eaque ipsam optio nam suscipit, sit dicta quasi nisi expedita repellat possimus non accusantium tenetur, recusandae deserunt. Maxime molestiae consequuntur consectetu r impedit aliquam eveniet est quam, aperiam totam numquam id  nihil? Beatae, laudantium error?</p>
+    </div>
+    <div class="img_productos centrar"><img src="imagenes/fotovelas.jpg" alt=""></div>
+  </div>
+  <div class="ancho margen ">
+    <h3>Buscamos talento para integrarlos a nuestro equipo</h3>
+    <div class="img_trabajos"><img src="imagenes/fotoaromatizante.jpg" alt=""></div>
+    <div class="texto_trabajos">
+      <h4>Puesto de trabajo para Recepcionista</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum est corporis facilis alias, rem praesentium! Provident modi eum facilis.</p>
+      <h4>Puesto de trabajo para Masajista</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum est corporis facilis alias, rem praesentium! Provident modi eum facilis.</p>
+      <h4>Puesto de trabajo para Nutriologo</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum est corporis facilis alias, rem praesentium! Provident modi eum facilis.</p>
+    </div>
+  </div>
+  <div class="ancho">
+    <div class="newsletter">
+      <h2>Recibe noticias y promociones</h2>
+      <h2>de SPA SALON</h2>
+      <p>Un lugar para consentirte de pies a cabeza</p>
+      <p>Servicio de salon estetica y Spa personalizado</p>
+      <br>
+      <p><span class="letra_rosa">TELEFONO:</span> 999 420 8871</p>
+      <br>
+      <p><span class="letra_rosa">CORREO:</span> 999 420 8871</p>
+      <br>
+      <div class="formulario">
+        <form action="clientes_spasalon" method="get">
+          <label for="">Tu direccion de correo electronico</label>
+          <br>
+          <input type="email" id="email" placeholder="* tunombre@example.com">
+          <br>
+          <button type="submit" id="boton_newsletter" class="btn_enviar">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <div class="instalaciones">
+      <h2>Nuestras instalaciones</h2>
+      <br> <br>
+      <iframe class="video_instalaciones" src="https://www.youtube.com/embed/v-D3XEPIGAY?si=XuNQDyT-jhGeGMib" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class=" footer ancho margen">
+    <div class="logo_final"><img src="imagenes/logo_spa.png" alt=""></div>
+    <div class="datos letra_rosa">
+      <p>Emiliano Perez</p>
+      <p>Programacion Web</p>
+      <p>7SA</p>
+    </div>
+    <hr>
+  </div>
+  <script>
+    $("#boton_newsletter").click(function(){
+      // validacion FORMATO email
+      let expresionCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!expresionCorreo.test($("#email").val().trim())) {
+      alert("Escribe un email válido");
+      $("#email").focus();
+      return false;
+      }
+    })
+  </script>
+</body>
+</html>
